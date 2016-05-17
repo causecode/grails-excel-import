@@ -1,8 +1,10 @@
-class ExcelImportGrailsPlugin {
+package grails.excelimport
+
+class GrailsExcelImportGrailsPlugin {
     // the plugin version
     def version = "1.1.0.BUILD-SNAPSHOT"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "2.0.0 > *"
+    def grailsVersion = "3.1.4"
     // the other plugins this plugin depends on
     def dependsOn = [:]
     // resources that are excluded from plugin packaging
